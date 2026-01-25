@@ -1,130 +1,127 @@
-✅ How to View Your Notebook Properly
-
-Use the Raw notebook link instead of GitHub blob link:
-
-👉 Replace
-
-blob/main
-
-
-with
-
-raw/main
-
-Example:
-https://raw.githubusercontent.com/Anindita531/LearningFrom0/main/DATASCIENCE/DAILYMICROPROJECT/Energy/Energy.ipynb
-
-✅ Or You Can Do This
-
-Send me:
-
-Screenshot of notebook cells
-
-Or copy-paste key code cells
-
-Or dataset + code
-
-👉 Then I can:
-
-Explain your project line by line
-
-Improve ML model
-
-Add graphs
-
-Fix errors
-
-Help you write project report + conclusion + viva explanation
-
-Convert into resume-level project description
-
-💡 If This Is a Data Science Micro Project
-
-Tell me:
-
-What dataset you used
-
-What model (Linear Regression / Random Forest / ML)
-
-Goal (prediction, EDA, visualization)
-
-👉 I will make it interview-ready with theory + explanation + output insights.
-
-https://github.com/Anindita531/Churn-Detection_Dashboard
-
-Here’s a summary of your Churn-Detection_Dashboard GitHub project:
-
+📊 Customer Churn Detection Dashboard
 📌 Project Overview
 
-Churn‑Detection_Dashboard on GitHub
+Customer churn is a major challenge for subscription-based businesses like telecom companies.
+This project builds a Machine Learning–powered Churn Detection Dashboard that predicts whether a customer is likely to leave the service based on their usage and account details.
 
-This repository is a customer churn prediction dashboard + web app that detects whether a telecom customer will churn (leave the company) using machine learning.
+The system combines data analysis, ML modeling, and a Flask-based web application to deliver real-time churn predictions through a simple user interface.
 
-🗂️ Repository Contents
+🎯 Objectives
 
-The main files and folders include:
+Analyze customer behavior using historical telecom data
 
-📄 README.md – Project description and usage instructions
+Train a machine learning model to predict churn
 
-📊 Telco-Customer-Churn.csv – Dataset with customer features and churn labels
+Deploy the trained model using a Flask web application
 
-🧠 customer_churn_prediction.ipynb – Notebook for training and analyzing the churn model
+Provide an easy-to-use dashboard for churn prediction
 
-🧪 train_pipeline.py – Script that trains a model and saves it to disk
+🧠 Machine Learning Model
 
-🔥 random_forest_model.pkl – Pre-trained Random Forest model (as a pickle)
+Algorithm Used: Random Forest Classifier
 
-🌐 app.py – A Flask web app that serves the prediction model as an API
+Reason:
 
-💻 index.html – Frontend form to enter customer details and get churn prediction
+Handles non-linear relationships
 
-🧪 test_api.py – Script to test the prediction endpoint
+Works well with categorical and numerical features
 
-📄 requirements.txt – Python dependencies
+Reduces overfitting compared to single decision trees
 
-💡 What the Project Does
+📂 Dataset
 
-1. Data & Model Training
+Dataset Name: Telco Customer Churn Dataset
 
-It uses the Telco customer churn dataset (common telecom churn dataset).
+Source: Public telecom churn dataset
 
-A Random Forest classifier is trained to predict churn vs. non-churn customers.
+Target Variable: Churn (Yes / No)
 
-The training pipeline script (train_pipeline.py) trains and serializes the model (random_forest_model.pkl).
+Key Features:
 
-2. Web App / Dashboard
+Customer tenure
 
-A Flask app (app.py) runs a web server (usually on port 5000).
+Monthly charges
 
-The frontend (index.html) lets users input customer features (like tenure, monthly charges, contract type, etc.) and get a churn prediction from the model.
+Total charges
 
-3. Testing & API
+Contract type
 
-test_api.py tests the Flask endpoint using sample requests.
+Internet service
 
-🛠 Tech Stack & Tools
-Component	Technology
-ML Model	scikit-learn (Random Forest)
-Backend	Flask (Python web server)
-Frontend	Static HTML form
-Data	Telco churn dataset
-Environment	Python + dependencies (requirements.txt)
-📌 How to Run It (Typical Steps)
+Payment method
 
-Install Dependencies
+🛠️ Tech Stack
+Category	Tools
+Programming Language	Python
+ML Libraries	scikit-learn, pandas, numpy
+Backend	Flask
+Frontend	HTML
+Model Storage	Pickle (.pkl)
+Visualization (EDA)	Matplotlib / Seaborn
+📁 Project Structure
+Churn-Detection_Dashboard/
+│
+├── Telco-Customer-Churn.csv        # Dataset
+├── customer_churn_prediction.ipynb# Data analysis & model training
+├── train_pipeline.py              # Training pipeline script
+├── random_forest_model.pkl        # Saved ML model
+├── app.py                         # Flask backend
+├── index.html                     # Frontend UI
+├── test_api.py                    # API testing script
+├── requirements.txt               # Dependencies
+└── README.md                      # Project documentation
 
+⚙️ How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/Anindita531/Churn-Detection_Dashboard.git
+cd Churn-Detection_Dashboard
+
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-
-Train the Model
-
+3️⃣ Train the Model (Optional)
 python train_pipeline.py
 
-
-Run the Flask App
-
+4️⃣ Run the Flask App
 python app.py
 
+5️⃣ Open in Browser
+http://localhost:5000
 
-Open in Browser
-Visit http://localhost:5000 to see the churn prediction dashboard.
+🔍 Features
+
+Predicts customer churn in real time
+
+Web-based dashboard using Flask
+
+Pre-trained Random Forest model
+
+Easy to extend with new models or features
+
+📈 Future Enhancements
+
+Add interactive visual dashboards (Plotly / Streamlit)
+
+Deploy on cloud platforms (Render / Heroku)
+
+Add user authentication
+
+Improve UI using React
+
+Compare multiple ML models
+
+💼 Use Case
+
+Telecom companies
+
+Subscription-based services
+
+Customer retention analysis
+
+Business intelligence systems
+
+🧑‍💻 Author
+
+Anindita Ghosh
+B.Tech IT | Aspiring Software & Data Engineer
+GitHub: Anindita531
