@@ -59,6 +59,7 @@ Frontend	HTML
 Model Storage	Pickle (.pkl)
 Visualization (EDA)	Matplotlib / Seaborn
 📁 Project Structure
+```
 Churn-Detection_Dashboard/
 │
 ├── Telco-Customer-Churn.csv        # Dataset
@@ -70,8 +71,8 @@ Churn-Detection_Dashboard/
 ├── test_api.py                    # API testing script
 ├── requirements.txt               # Dependencies
 └── README.md                      # Project documentation
-
-⚙️ How to Run the Project
+```
+### ⚙️ How to Run the Project
 1️⃣ Clone the Repository
 git clone https://github.com/Anindita531/Churn-Detection_Dashboard.git
 cd Churn-Detection_Dashboard
