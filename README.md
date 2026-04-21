@@ -1,5 +1,6 @@
-📊 Customer Churn Detection Dashboard
-📌 Project Overview
+### 📊 Customer Churn Detection Dashboard
+
+### 📌 Project Overview
 
 Customer churn is a major challenge for subscription-based businesses like telecom companies.
 This project builds a Machine Learning–powered Churn Detection Dashboard that predicts whether a customer is likely to leave the service based on their usage and account details.
