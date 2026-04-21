@@ -50,7 +50,7 @@ Contract type
 Internet service
 
 Payment method
-
+```
 🛠️ Tech Stack
 Category	Tools
 Programming Language	Python
@@ -59,6 +59,7 @@ Backend	Flask
 Frontend	HTML
 Model Storage	Pickle (.pkl)
 Visualization (EDA)	Matplotlib / Seaborn
+```
 📁 Project Structure
 ```
 Churn-Detection_Dashboard/
